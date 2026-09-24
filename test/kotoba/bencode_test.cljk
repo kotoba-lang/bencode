@@ -1,5 +1,5 @@
 (ns kotoba.bencode-test
-  (:require [clojure.test :refer [deftest is run-tests testing]]
+  (:require [kotoba.test :refer [deftest is run-tests testing]]
             [kotoba.runtime :as runtime]
             [kotoba.wasm-exec :as wasm-exec])
   (:import (com.dylibso.chicory.wasm Parser)))
